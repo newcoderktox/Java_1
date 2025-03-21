@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83954c1f-c1f4-4ead-8326-f38070785f3b" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/Student_Management_System.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zoo_Management_System.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,7 @@
     "Application.Hesap_makinesi.executor": "Run",
     "Application.Student_Management_System.executor": "Run",
     "Application.Vehicle_System.executor": "Run",
+    "Application.Zoo_Management_System.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -96,7 +97,8 @@
       <workItem from="1741794658400" duration="5434000" />
       <workItem from="1742119240874" duration="9011000" />
       <workItem from="1742211579435" duration="4832000" />
-      <workItem from="1742384423552" duration="1320000" />
+      <workItem from="1742384423552" duration="10370000" />
+      <workItem from="1742544895035" duration="3087000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -130,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742216438505</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new">
+      <option name="closed" value="true" />
+      <created>1742385773362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742385773362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

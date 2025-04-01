@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+*.iml # IntelliJ IDEA module files
+.idea/workspace.xml # IntelliJ IDEA workspace file
+.idea/ # IntelliJ IDEA project files (optional, but recommended)
 
 ### Eclipse ###
 .apt_generated

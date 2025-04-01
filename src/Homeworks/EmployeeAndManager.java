@@ -10,6 +10,7 @@ package Homeworks;
      }
 
      public void printInfo(){
+         System.out.println("----INFO----");
          System.out.println("Name: "+name);
          System.out.println("Salary: "+salary);
      }
@@ -24,6 +25,7 @@ package Homeworks;
      }
      @Override
      public void printInfo(){
+         System.out.println("----INFO----");
          System.out.println("Name: "+name);
          System.out.println("Salary: "+salary);
          System.out.println("Department: "+department);

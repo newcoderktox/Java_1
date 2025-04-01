@@ -33,7 +33,7 @@ package Homeworks;
      }
  }
 public class EmployeeAndManager {
-     public static void mai(String[] args){
+     public static void main(String[] args){
          Employee employee = new Employee ("Nisanur Celebi", 10000);
          Manager manager = new Manager ("Ayse Yilmaz", 10000,"computer science");
 

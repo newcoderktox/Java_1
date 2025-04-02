@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83954c1f-c1f4-4ead-8326-f38070785f3b" name="Changes" comment="new" />
+    <list default="true" id="83954c1f-c1f4-4ead-8326-f38070785f3b" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/Animal_Sounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeePayrollSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +64,7 @@
     &quot;Application.Student_Management_System.executor&quot;: &quot;Run&quot;,
     &quot;Application.Vehicle_System.executor&quot;: &quot;Run&quot;,
     &quot;Application.Zoo_Management_System.executor&quot;: &quot;Run&quot;,
+    &quot;Application.examPractice.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -70,7 +76,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Nisa/IdeaProjects/Practice/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -102,6 +108,17 @@
       <workItem from="1743278092154" duration="1056000" />
       <workItem from="1743416466164" duration="2818000" />
       <workItem from="1743522750539" duration="1358000" />
+      <workItem from="1743596099451" duration="678000" />
+      <workItem from="1743697928339" duration="1492000" />
+      <workItem from="1743766368898" duration="456000" />
+      <workItem from="1743812107172" duration="1231000" />
+      <workItem from="1743873693436" duration="736000" />
+      <workItem from="1744541031261" duration="2891000" />
+      <workItem from="1744788964534" duration="1592000" />
+      <workItem from="1745357904644" duration="1562000" />
+      <workItem from="1745584920025" duration="5261000" />
+      <workItem from="1745754933120" duration="2530000" />
+      <workItem from="1745946267547" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -231,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743525145084</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new">
+      <option name="closed" value="true" />
+      <created>1743596132717</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1743596132717</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

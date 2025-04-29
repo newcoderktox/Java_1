@@ -4,7 +4,7 @@ abstract class Logger{
 class ConsoleLogger extends Logger{
     @Override
     void log (String message){
-        System.out.println("Hello World!");
+        System.out.println("Hello " + message);
     }
 }
 class FileLogger extends Logger{
@@ -15,7 +15,7 @@ class FileLogger extends Logger{
     }
     @Override
     void log (String message){
-        System.out.println("The file is saved!");
+        System.out.println("The " + message+ " is saved!");
     }
 
 }

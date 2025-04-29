@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83954c1f-c1f4-4ead-8326-f38070785f3b" name="Changes" comment="Merge remote-tracking branch 'Java/master'">
-      <change afterPath="$PROJECT_DIR$/src/Geometric_Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoggerSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
     "Application.Employee_System.executor": "Run",
     "Application.Geometric_Shapes.executor": "Run",
     "Application.Hesap_makinesi.executor": "Run",
+    "Application.LoggerSystem.executor": "Run",
     "Application.Student_Management_System.executor": "Run",
     "Application.Vehicle_System.executor": "Run",
     "Application.Zoo_Management_System.executor": "Run",
@@ -118,7 +118,7 @@
       <workItem from="1745357904644" duration="1562000" />
       <workItem from="1745584920025" duration="5261000" />
       <workItem from="1745754933120" duration="2530000" />
-      <workItem from="1745946267547" duration="3402000" />
+      <workItem from="1745946267547" duration="5616000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -264,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745949245418</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'Java/master'">
+      <option name="closed" value="true" />
+      <created>1745950888859</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1745950888859</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

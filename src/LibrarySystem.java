@@ -101,6 +101,10 @@ class Book extends LibraryItem{
             System.out.println(getBorrower() + "named user returned the book successfully!");
         }
     }
+    @Override
+    public String  toString(){
+        return "Title: " + getTitle() + "\n" + "Publication Year: " + getPublicationYear() + "\nAvailable:" +getAvailable() + "\nAuthor: " +getAuthor() + "\nPage Count: " + getPageCount();
+    }
 }
 class Magazine extends LibraryItem{
     private int issueNumber;
@@ -138,7 +142,109 @@ class Magazine extends LibraryItem{
             System.out.println(getBorrower() + "named user returned the magazine successfully!");
         }
     }
+    @Override
+    public String  toString(){
+        return "Title: " + getTitle() + "\n" + "Publication Year: " + getPublicationYear() + "\nAvailable:" +getAvailable() + "\nIssue number: "+ getIssueNumber();
+    }
 }
-class
+class DVD extends LibraryItem{
+    private int duration;
+
+    public int getDuration(){
+        return duration;
+    }
+    public void setDuration(int duration){
+        this.duration=duration;
+    }
+    public DVD( String title, int publicationYear, String borrower, boolean available, int duration){
+        super(title, publicationYear, borrower, available);
+        this.duration=duration;
+    }
+    @Override
+    public void borrowItem(String borrower){
+        if(!isAvailable()){
+            System.out.println("This DVD is already borrowed by someone else!");
+        } else{
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Please enter borrower name: ");
+            setBorrower(scanner.nextLine());
+
+            setAvailable(false);
+            System.out.println(getBorrower() + " named user borrowed the DVD successfully!");
+
+        }
+    }
+    @Override
+    public void returnItem(){
+        if(isAvailable()){
+            System.out.println("This DVD is already returned!");
+        } else{
+            setAvailable(true);
+            System.out.println(getBorrower() + "named user returned the DVD successfully!");
+        }
+    }
+    public String  toString(){
+        return "Title: " + getTitle() + "\n" + "Publication Year: " + getPublicationYear() + "\nAvailable:" +getAvailable() + "\nDuration: "+ getDuration();
+    }
+}
 public class LibrarySystem {
+    public static void main(String [] args){
+        Scanner scanner = new Scanner(System.in);
+        LibraryItem[] items = new LibraryItem[3];
+        items[0] = new Book("Effective Java", 2018, "", true, "Joshua Bloch", 416);
+        items[1] = new Magazine("Tech Monthly", 2023, "", true, 45);
+        items[2] = new DVD("Inception", 2010, "", true, 148);
+
+        while(true){
+            System.out.println("\nLIBRARY SYSTEM");
+            System.out.println("1.Borrow an item.");
+            System.out.println("2.Return an item.");
+            System.out.println("3.View all the items.");
+            System.out.println("4.Exit.");
+
+            int choice = scanner.nextInt();
+            scanner.nextLine();
+            if (choice==4){
+                System.out.println("Exiting the library system...");
+                break;
+            }
+            switch(choice){
+                case 1:
+                    System.out.println("Enter item title: ");
+                    String borrowTitle = scanner.nextLine();
+                    for (LibraryItem item : items){
+                        if ((item.getTitle().equalsIgnoreCase(borrowTitle))){
+                            item.borrowItem(""); // Kullanıcıdan ismini isteyip atama yapacak
+                            break;
+                        }
+                    }
+                    break;
+
+                case 2: // İade etme
+                    System.out.print("Enter item title to return: ");
+                    String returnTitle = scanner.nextLine();
+                    for (LibraryItem item : items) {
+                        if (item.getTitle().equalsIgnoreCase(returnTitle)) {
+                            item.returnItem();
+                            break;
+                        }
+                    }
+                    break;
+
+                case 3: // Tüm öğeleri görüntüleme
+                    System.out.println("\nLibrary Inventory:");
+                    for (LibraryItem item : items) {
+                        System.out.println(item);
+                    }
+                    break;
+
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+            }
+        }
+
+        scanner.close();
+
+
+    }
 }
